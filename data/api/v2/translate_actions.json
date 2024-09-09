@@ -1087,6 +1087,20 @@
     "request_description": "",
     "request_schema_description": "A request wrapper around a single timeseries query to be executed."
   },
+  "ListASMExclusionFilters": {
+    "description": "Retrieve a list of ASM exclusion filters.",
+    "summary": "List ASM Exclusion Filters"
+  },
+  "CreateASMExclusionFilter": {
+    "description": "Create a new exclusion filter with the given parameters.",
+    "summary": "Create a ASM WAF Exclusion filter",
+    "request_description": "The definition of the new Exclusion filter.",
+    "request_schema_description": "Request object that includes the exclusion filter to create."
+  },
+  "GetASMExclusionFilters": {
+    "description": "Retrieve a specific ASM exclusion filter by ID.",
+    "summary": "Get a specific ASM Exclusion Filter"
+  },
   "ListCSMThreatsAgentRules": {
     "description": "Get the list of Cloud Security Management Threats Agent rules.",
     "summary": "Get all CSM Threats Agent rules"
